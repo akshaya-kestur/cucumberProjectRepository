@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-14T13:37:55 IST" name="Default suite" finished-at="2025-04-14T13:39:25 IST" duration-ms="89347">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestNGTestRunner@2df3b89c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-14T13:37:55 IST" name="Default test" finished-at="2025-04-14T13:39:25 IST" duration-ms="89347">
+      <class name="testrunner.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestNGTestRunner@2df3b89c]" started-at="2025-04-14T13:37:55 IST" name="setUpClass" finished-at="2025-04-14T13:37:59 IST" duration-ms="3776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73c48264]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestNGTestRunner@2df3b89c]" started-at="2025-04-14T13:37:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-14T13:38:26 IST" duration-ms="26968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get vegies details from application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["product search from ecommerce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestNGTestRunner@2df3b89c]" started-at="2025-04-14T13:38:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-14T13:38:47 IST" duration-ms="21228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get vegies details from application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["product search from ecommerce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestNGTestRunner@2df3b89c]" started-at="2025-04-14T13:38:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-14T13:39:22 IST" duration-ms="34377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add More Vegies on cart and do checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["product search from ecommerce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestNGTestRunner@2df3b89c]" started-at="2025-04-14T13:39:22 IST" name="tearDownClass" finished-at="2025-04-14T13:39:25 IST" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
