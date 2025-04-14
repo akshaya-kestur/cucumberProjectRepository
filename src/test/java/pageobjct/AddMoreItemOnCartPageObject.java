@@ -22,7 +22,6 @@ public class AddMoreItemOnCartPageObject {
 	
 	public void searchItem(String serachVegie) {
 		driver.findElement(search).sendKeys(serachVegie);
-		System.out.println("succesfylly send");
 	}
 	public String getItem() {
 		return driver.findElement(Productname).getText();
